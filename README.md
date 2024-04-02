@@ -40,4 +40,27 @@ The Python code was scripted for a data pipeline project that generates syntheti
    - Company data is generated using the generate_company_records function.
    - The DataPipeline class is instantiated with the database credentials, and the run_pipeline method is called to ingest the generated data into the MySQL database.
 
-Overall, the project automates the generation of synthetic data for multiple companies and its ingestion into a MySQL database, providing a basis for further data analysis and processing.
+Overall, the project automates the generation of synthetic data for multiple companies and its ingestion into a MySQL database, providing a basis for further data analysis and processing. 
+
+## Prerequisites
+
+- Python 3.0 and above
+- Visual Studio Code
+- MySQL
+- Faker
+- pymsql.cursors
+
+## Installation
+
+## Usage 
+
+## Code 
+
+
+
+
+
+
+
+
+
