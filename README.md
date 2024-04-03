@@ -1,5 +1,5 @@
 # GROUP-6_-ASSIGNMENT-4_DATA-PIPELINE_10-COMPANIES
-Generated 100k records for 10 companies by building a data pipeline using Python programming language
+Generated 100k records for 10 companies by building a data pipeline using Python programming language and then ingesting into MySQL database for further analysis and exploration.
 ## Table of Contents
  
    - [Overview](#overview-1)
@@ -18,12 +18,12 @@ The Python code was scripted for a data pipeline project that generates syntheti
 ## Details 
 1. **Data Generation**:
    - The code utilizes the Faker library to generate synthetic data for 10 different companies, each with 10,000 records.
-   - Data includes customer IDs, names, addresses, emails, phone numbers, contact preferences, transaction activities, customer preferences, and communication methods.
+   - Data includes `customer IDs, names, addresses, emails, phone numbers, contact preferences, transaction activities, customer preferences, and communication methods`.
    - Each company's data is stored in a dictionary where the company name serves as the key and the generated records are stored as values.
 
 2. **Data Ingestion**:
-   - The DataPipeline class handles the ingestion of generated data into a MySQL database.
-   - It establishes a connection to the MySQL database using pymysql.
+   - The DataPipeline class handles the ingestion of generated data into a `MySQL database`.
+   - It establishes a connection to the MySQL database using `pymysql`.
    - For each company's data, it creates a corresponding table in the database if it doesn't exist already.
    - It then ingests the generated records into their respective tables.
 
@@ -52,25 +52,30 @@ Overall, the project automates the generation of synthetic data for multiple com
 
 ## Installation
    - Ensure Python is installed on your system.
-   - Install required packages using pip: `pip install Faker pymysql`.
+   - Install required packages using pip: `pip install Faker, pymysql`.
    - Download and set up MySQL server.
    - Clone or download the project repository from GitHub.
    
 ## Usage 
-- Modify the database credentials and company names as needed.
+   - Modify the database credentials and company names as needed.
+    ` if __name__ == "__main__":
+    dbname = "pipeline"
+    user = "root"
+    password = "mysql123"
+    host = "localhost"`
    - Run the Python script to generate synthetic data and ingest it into the MySQL database.
    - Verify data ingestion by querying the database tables.
    - Integrate the code into your project's data pipeline for automated data generation and ingestion.
 ## Code 
-- Import required libraries: Faker, pymysql.
+- Import required libraries: `Faker, pymysql`.
    - Define DataPipeline class to handle data ingestion.
    - Implement methods for establishing database connection, creating tables, and ingesting data.
-   - Generate synthetic data for multiple companies using Faker.
+   - Generate synthetic data for multiple companies using `Faker`.
    - Instantiate DataPipeline object with database credentials and generated data, then run the pipeline.
 
 ## Acknowledgement
-Many thanks to Trestle and GIZ for supporting young tech talents.
-- website: (https://www.trestleacademyghana.org)
+Many thanks to Trestle for supporting young tech talents.
+- `website:` (https://www.trestleacademyghana.org)
 ## Lead Trainers
 - Derek Degbedzui
 - Theophilus Akugre
@@ -79,6 +84,12 @@ Many thanks to Trestle and GIZ for supporting young tech talents.
 - Prince Sarfo
 - Caleb Dunyo
 - Ruth Jackson
+- Nana Aba Acquah-Harrison
+- Priscilla Mbama Yakubu
+- Abigail Arkoh
+- Esther Abankwa
+- Lilly Adjei
+- Rhoda Arthur
 
 
 
