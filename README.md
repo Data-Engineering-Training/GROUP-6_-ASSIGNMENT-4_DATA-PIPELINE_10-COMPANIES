@@ -59,9 +59,13 @@ Overall, the project automates the generation of synthetic data for multiple com
 ## Acknowledgement
 
 ## Lead Trainers
-
+- Derek Degbedzui
+- Theophilus Akugre
 ## Group Members
-
+- Irene Ofori-Agyeman
+- Prince Sarfo
+- Caleb Dunyo
+- Ruth Jackson
 
 
 
