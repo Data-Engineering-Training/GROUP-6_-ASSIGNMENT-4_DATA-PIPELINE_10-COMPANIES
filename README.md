@@ -51,13 +51,26 @@ Overall, the project automates the generation of synthetic data for multiple com
 - pymsql.cursors
 
 ## Installation
-
+   - Ensure Python is installed on your system.
+   - Install required packages using pip: `pip install Faker pymysql`.
+   - Download and set up MySQL server.
+   - Clone or download the project repository from GitHub.
+   
 ## Usage 
-
+- Modify the database credentials and company names as needed.
+   - Run the Python script to generate synthetic data and ingest it into the MySQL database.
+   - Verify data ingestion by querying the database tables.
+   - Integrate the code into your project's data pipeline for automated data generation and ingestion.
 ## Code 
+- Import required libraries: Faker, pymysql.
+   - Define DataPipeline class to handle data ingestion.
+   - Implement methods for establishing database connection, creating tables, and ingesting data.
+   - Generate synthetic data for multiple companies using Faker.
+   - Instantiate DataPipeline object with database credentials and generated data, then run the pipeline.
 
 ## Acknowledgement
-
+Many thanks to Trestle and GIZ for supporting young tech talents.
+- website: (https://www.trestleacademyghana.org)
 ## Lead Trainers
 - Derek Degbedzui
 - Theophilus Akugre
